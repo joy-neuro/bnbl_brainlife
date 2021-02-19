@@ -50,8 +50,6 @@
 % added to the MatLab path. 
 addpath(genpath("."))
 
-%% read in data (any FC json files?)
-addpath('/geode2/home/u040/jo11/Carbonate/Documents/git/bnbl_brainlife-main');
 %files = dir('./data/*.mat');
 %nsubj = length(files);
 config = loadjson('./data/test_fc.json');
